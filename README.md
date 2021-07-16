@@ -1,2 +1,8 @@
 # Black Friday Landing Page
-Black Friday landing page made during Hiring Coders.
+
+First challenge successfully completed!
+
+I made a Black Friday landing page.
+This project was made during Hiring Coders!
+
+Hope you'll like it!
