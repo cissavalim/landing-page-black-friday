@@ -6,3 +6,5 @@ I made a Black Friday landing page.
 This project was made during Hiring Coders!
 
 Hope you'll like it!
+
+Hosted on <https://money-friday.netlify.app/>
