@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Black Friday</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="responsive.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link
+         href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link rel="shortcut icon" href="assets/money.png" />
+   </head>
+   <body>
+      <main>
+         <video autoplay muted loop id="myVideo">
+            <source src="assets/video.mp4" type="video/mp4" />
+         </video>
+
+         <header>
+            <a href="#" class="logo"><b>MONEY</b> FRIDAY</a>
+
+            <nav class="topnav" id="myTopnav">
+               <a href="#">Home</a>
+               <a href="#">Quem somos</a>
+               <a href="#">Parceiros</a>
+               <a href="#subscribe" class="styled">Se inscrever</a>
+            </nav>
+         </header>
+
+         <section class="container1">
+            <h1 class="title">MONEY FRIDAY</h1>
+            <h2>O DINHEIRO MAIS BARATO DA HISTÓRIA</h2>
+            <div class="countdown">
+               <p id="days"></p>
+               <p id="hours"></p>
+               <p id="minutes"></p>
+               <p id="seconds"></p>
+
+               <p class="days">Dias</p>
+               <p class="hours">Horas</p>
+               <p class="minutes">Minutos</p>
+               <p class="seconds">Segundos</p>
+            </div>
+            <a href="#subscribe" class="styled button" id="sub">Se inscrever</a>
+         </section>
+
+         <section class="container2">
+            <div class="card">
+               <img src="assets/voador.jpg" />
+               <h1>Dinheiro Voador</h1>
+               <p class="price">R$ 12</p>
+               <p>
+                  Uma espécie rara, porém quem tem o poder de pegá-lo recebe uma
+                  bênção.
+               </p>
+               <button type="button" class="buy">Reservar</button>
+            </div>
+
+            <div class="card">
+               <img src="assets/banco.jpg" />
+               <h1>Dinheiro de Brinquedo</h1>
+               <p class="price">R$ 12</p>
+               <p>Dinheiro bacana pra brincar entre amigos.</p>
+               <button type="button" class="buy">Reservar</button>
+            </div>
+
+            <div class="card">
+               <img src="assets/manchada.jpg" />
+               <h1>Dinheiro Artístico</h1>
+               <p class="price">R$ 24</p>
+               <p>
+                  Um dinheiro um pouco mais colorido que o normal. Seu uso é
+                  muito recomendado.
+               </p>
+               <button type="button" class="buy">Reservar</button>
+            </div>
+         </section>
+
+         <section class="container3" id="subscribe">
+            <h2>
+               Inscreva-se para ser o primeiro a saber quando começa a Black
+               Friday!
+            </h2>
+
+            <form id="form">
+               <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input
+                     class="input-field"
+                     type="text"
+                     placeholder="Nome"
+                     id="name"
+                  />
+               </div>
+
+               <div class="input-container">
+                  <i class="fa fa-envelope icon"></i>
+                  <input
+                     class="input-field"
+                     type="email"
+                     placeholder="Email"
+                     id="email"
+                  />
+               </div>
+
+               <input type="submit" class="btn" value="Enviar" />
+            </form>
+
+            <p class="success" id="success"></p>
+         </section>
+
+         <footer>
+            <p>
+               Feito por
+               <a href="https://github.com/cissavalim/" target="_blank"
+                  >Cecilia Valim</a
+               >. Orgulhosamente feito durante o
+               <a href="https://www.hiringcoders.com.br/" target="_blank"
+                  >Hiring Coders</a
+               >.
+            </p>
+         </footer>
+      </main>
+   </body>
+   <script src="script.js"></script>
+</html>
